@@ -1,0 +1,30 @@
+#ie-warning {
+	font: message-box;
+	position: absolute; 
+	left: 0px; 
+	top: 0px;
+	z-index: 99;
+	background: #ffffe7 none;
+}
+body>div#ie-warning {
+	position: fixed;
+}
+#ie-warning a, #ie-warning a:link, #ie-warning a:visited, #ie-warning a:active {
+	display: block;
+	float: left;
+	clear: both;
+	width: 100%;
+	color: #000;
+	border-bottom: .16em outset;
+	text-align: left;
+	text-decoration: none;
+	padding: .45em 0 .45em 2em;
+	margin: 0 -2em 0 0;
+	font-family:Verdana;
+	font-size: 12px;
+	font-weight: bold;
+}
+#ie-warning a:hover {
+	color: HighlightText;
+	background-color: Highlight;
+}
